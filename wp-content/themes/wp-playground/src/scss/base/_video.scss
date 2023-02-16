@@ -1,0 +1,14 @@
+/* Fixed aspect ratio for iframe video  */
+.video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+    position: relative;
+    
+    iframe {
+        height: 100% !important;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100% !important;
+    }
+}

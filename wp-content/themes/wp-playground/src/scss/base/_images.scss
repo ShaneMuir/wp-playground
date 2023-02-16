@@ -1,0 +1,15 @@
+// Responsive reset
+img {
+    height: auto;
+	max-width: 100%;
+
+    // Lazy loading - in conjunction with lazy-load-images.js module
+    .lazy {
+        opacity: 1;
+        transition: opacity 0.25s ease-out;
+        
+        &[data-src] {
+            opacity: 0;
+        }
+    }
+}

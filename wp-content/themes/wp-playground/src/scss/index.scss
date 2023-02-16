@@ -1,0 +1,44 @@
+// Bootstrap functions
+@import "node_modules/bootstrap/scss/functions";
+
+// Overrides and bespoke Variables, Mixins and Functions
+@import 'base/variables';
+@import 'base/functions';
+@import 'base/mixins';
+
+// Bootstrap 5 core
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/maps";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/utilities";
+
+// Bootstrap 5 components - add/remove as required
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/containers";
+@import "node_modules/bootstrap/scss/grid";
+//@import "node_modules/bootstrap/scss/transitions";
+//@import "node_modules/bootstrap/scss/buttons";
+//@import "node_modules/bootstrap/scss/images";
+
+// Bootstrap 5 helpers & utilities
+@import "node_modules/bootstrap/scss/helpers";
+@import "node_modules/bootstrap/scss/utilities/api";
+
+// 3rd Party Packages
+@import "normalize.css";
+@import "./../../node_modules/@glidejs/glide/dist/css/glide.core.min.css";
+
+
+// Overrides & Custom SASS
+@import 'base/helpers';
+@import 'base/reset';
+@import 'base/images';
+@import 'base/buttons';
+@import 'base/video';
+
+// Theme
+@import 'layout/header';
+@import 'layout/footer';
+
+/* add components and page-templates here */

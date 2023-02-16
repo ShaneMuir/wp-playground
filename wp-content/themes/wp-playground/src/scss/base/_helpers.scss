@@ -1,0 +1,24 @@
+// Reset lists
+%listreset {
+    list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+// Use to reset paragraphs to a global style
+%paragraph {
+	font-size: rem-calc(18);
+	font-weight: $font-weight-normal;
+	line-height: rem-calc(28);
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+// Clearfix
+%clearfix {
+	clear: both;
+	content: "";
+  	display: table;
+}

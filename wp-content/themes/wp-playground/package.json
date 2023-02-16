@@ -1,0 +1,23 @@
+{
+  "name": "wp-playground",
+  "version": "1.0.0",
+  "description": "Interactive WP website in 24 hours",
+  "scripts": {
+    "build": "wp-scripts build",
+    "watch": "wp-scripts start"
+  },
+  "author": "Shane Muirhead",
+  "license": "MIT",
+  "repository": "https://github.com/ShaneMuir/wp-playground",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "@popperjs/core": "^2.11.6",
+    "@glidejs/glide": "^3.4.1",
+    "axios": "^0.21.1",
+    "normalize.css": "^8.0.1",
+    "typescript": "^2.8.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "*"
+  }
+}
